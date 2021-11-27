@@ -152,7 +152,11 @@ This project is [MIT](https://github.com/woowacourse/java-baseball-precourse/blo
 
 -validateNumbers()
 
-- 유저로부터 입력을 받는다. compareEach 함수를 사용하여 strike와 ball의 개수를 세고, 그 결과에 따라 힌트를 출력한다. 게임이 끝났다면 done을 true로 바꾼다.
+- 유저로부터 입력을 받는다. compareEach 함수를 사용하여 strike와 ball의 개수를 세고, 센 결과를 printMessage()에 넘기고 종료한다.
+
+-printMessage(argument)
+
+- validateNumbers()로부터 받은 argument를 토대로 메세지를 출력한다. 게임종료라면 done을 true로 바꾸고 종료한다.
 
 -checkEndOfGame()
 
