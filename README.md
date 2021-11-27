@@ -133,7 +133,7 @@ This project is [MIT](https://github.com/woowacourse/java-baseball-precourse/blo
 
 -클래스 변수 
 
-- answer: 컴퓨터가 제시하는 세 수를 정의하기 위한 변수 (char 타입 배열)
+- answer: 컴퓨터가 제시하는 세 수를 정의하기 위한 변수 (List<Integer>, Randoms.pickUniqueNumbersInRange의 리턴 타입이 List<Integer> 이므로)
 - done: 게임이 끝났는지 아닌지 알려주는 변수 (boolean)
 
 -클래스 함수
@@ -142,7 +142,7 @@ This project is [MIT](https://github.com/woowacourse/java-baseball-precourse/blo
 
 - answer을 랜덤하게 초기화한다.
 
--compareEach(char [] answer, char num, int pos): num은 유저가 제안한 숫자 중 1개, pos는 유저가 제안한 숫자들의 배열에서 num의 index
+-compareEach(List<Integer> answer, Integer num, int pos): num은 유저가 제안한 숫자 중 1개, pos는 유저가 제안한 숫자들의 배열에서 num의 index
 - 우선 num과 같은 index에 있는 answer의 원소와 비교한다. 같으면 1을 반환하고 다르면 나머지 수를 순환하며 비교한다. 같은 것이 있으면 0을 반환한다.
 answer의 세 수 중에 같은 것이 없다면 -1을 반환한다.
 
