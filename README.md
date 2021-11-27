@@ -131,14 +131,16 @@ This project is [MIT](https://github.com/woowacourse/java-baseball-precourse/blo
 
 ## Function List
 
--클래스 변수
--answer: 컴퓨터가 제시하는 세 수를 정의하기 위한 변수 (char 타입 배열)
--done: 게임이 끝났는지 아닌지 알려주는 변수 (boolean)
+-클래스 변수 
+
+- answer: 컴퓨터가 제시하는 세 수를 정의하기 위한 변수 (char 타입 배열)
+- done: 게임이 끝났는지 아닌지 알려주는 변수 (boolean)
 
 -클래스 함수
 
 -startGame()
--answer을 랜덤하게 초기화한다.
+
+- answer을 랜덤하게 초기화한다.
 
 -compareEach(char [] answer, char num, int pos): num은 유저가 제안한 숫자 중 1개, pos는 유저가 제안한 숫자들의 배열에서 num의 index
 - 우선 num과 같은 index에 있는 answer의 원소와 비교한다. 같으면 1을 반환하고 다르면 나머지 수를 순환하며 비교한다. 같은 것이 있으면 0을 반환한다.
@@ -151,9 +153,9 @@ answer의 세 수 중에 같은 것이 없다면 -1을 반환한다.
 - done이 true면 게임이 끝났다는 메세지를 출력하고, 다시할껀지 물어본다. 다시한다고 하면 startGame을 호출하고 true를 반환한다.
 - done이 false면 그대로 false를 반환한다.
 
-- 생성자
-  - done을 false로 초기화하고, startGame을 호출한다.
+-생성자
+- done을 false로 초기화하고, startGame을 호출한다.
 
-- main
-  - do while 문을 사용해 구현한다.
+-main 
+- do while 문을 사용해 구현한다.
 
